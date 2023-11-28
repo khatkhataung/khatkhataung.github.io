@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <style>
+        .class{
+            max-width: 250px;
+            color: white;
+            background-color: green;
+            text-align: center;
+            padding: 50px 0;
+        }
+    </style>
+</head>
+<body>
+    <button id="doubleClick">DoubleClick</button>
+    <p id="heinlearn">HeinLearn</p>
+    <input type="text" id="focus">
+    <script src="jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#doubleClick').dblclick(function(){
+                alert("Double Click");
+            })
+            $('#heinlearn').mouseover(function(){
+                $('#heinlearn').addClass('class');
+            })
+            $('#heinlearn').mouseout(function(){
+                $('#heinlearn').removeClass('class');
+            })
+            $('#focus').focus(function(){
+                $(this).css('backgroundColor', 'green');
+            })
+            
+        })
+    </script>
+    
+</body>
+</html>

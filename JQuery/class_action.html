@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Action</title>
+    <style>
+        .home{
+            max-width: 200px;
+            background-color: red;
+            color: white;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <p id="click">I want to go home.</p>
+    <button id="add_class">AddClass</button>
+    <button id="remove_class">RemoveClass</button>
+    <button id="toggle_class">ToggleClass</button>
+    <script src="jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('#add_class').click(function(){
+            $('#click').addClass('home');
+            // text change exampl
+            let text="I go to back";
+            $('#click').text(text);
+        })
+        $('#remove_class').click(function(){
+            $('#click').removeClass('home');
+            let text=" I want to go home.";
+            $('#click').text(text);
+        })
+        $('#toggle_class').click(function(){
+            $('#click').toggleClass('home');
+        })
+        $('#click').click(function(){
+            $(this).toggleClass('home');
+        })
+      })
+    </script>
+    
+</body>
+</html>
