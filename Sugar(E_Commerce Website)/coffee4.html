@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee 4</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid bg-dark py-5 detail_menu">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-6 mb-5">
+                <img src="images/americano.jpg" class="menu_image float-end me-5 img-fluid ">
+            </div>
+            <div class="col-12 col-md-12 col-lg-6 text-white ">
+                <div class="row dotted_border_bottom ms-5">
+                    <div class="col-6 col-md-6 col-lg-6 font_style"><h2>Americono</h2></div>
+                    <div class="col-6 col-md-6 col-lg-6 text-danger flot-end"><h4 class="float-end">MMK 5,500</h4></div>
+
+                </div>
+                <div class="row ms-5">
+                    <h4 class="my-4">Choice of Topping</h4>
+                    <div class="col-6 col-md-6 col-lg-6">
+                        <div class="form-check my-4">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                hot
+                            </label>
+                          </div>
+                          <div class="form-check my-4">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              ice
+                            </label>
+                          </div>
+                          
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-6">
+                        <div class="my-4 ms-5">
+                         အခမဲ့ 
+                        </div>
+                        <div class="my-4 ms-5">
+                        အခမဲ့
+                         </div>
+                         <div class="my-4 ms-5">
+                            <a class="btn btn-outline-danger addToCart" data-id="16" data-name="coffee4" data-price="5,500">Add To Card</a>
+
+                         </div>
+                        
+                    </div>
+                    
+                    
+                    </div>
+                   
+                
+            </div>
+            <div class="row py-5 ">
+            
+                <h2 class="text-white dotted_border py-5">Smilar Items </h2>
+        
+        
+                <section class="customer-logos slider py-5">
+                    <div class="slide"><a href="coffee1.html"><img src="images/latte.jpg " class="menu_image"></a></div>
+                    <div class="slide"><a href="coffee2.html"><img src="images/cappuccino.jpg " class="menu_image"></a></div>
+                    <div class="slide"><a href="coffee3.html"><img src="images/black_coffee.jpg " class="menu_image"></a></div>
+                    <div class="slide"><a href="coffee4.html"><img src="images/americano.jpg " class="menu_image"></a></div>
+                    
+                    <div class="slide"><a href="coffee1.html"><img src="images/latte.jpg " class="menu_image"></a></div>
+
+                </section>
+
+
+
+        </div>
+        </div>
+        
+        
+
+    
+    
+    </div>
+
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="js/slick.js"></script>
+    <script src="fontawesome/js/all.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".customer-logos").slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1500,
+                arrows: false,
+                dots: false,
+                pauseOnHover: false,
+                responsive: [
+                    { breakpoint: 768, settings: { slidesToShow: 3 } },
+                    { breakpoint: 520, settings: { slidesToShow: 2 } }
+                ]
+            });
+        });
+    </script>
+    
+</body>
+</html>

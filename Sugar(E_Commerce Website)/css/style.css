@@ -1,0 +1,454 @@
+/* .border{
+   
+  border-radius: 15px;
+  padding: 5px 15px 5px 15px;
+} */
+.navbar{
+  background-color: rgba(127, 129, 129, 0.881);
+  
+}
+.nav_border{
+  padding: 5px 15px 5px 15px;
+ 
+}
+.nav_active{
+  background-color: brown;
+  color: white;
+}
+.nav_border:active,
+.nav_border:hover{
+  background-color: brown;
+}
+.owl-item.active.center {
+  -webkit-transform: scale(1.8);
+  transform: scale(1.8);
+}
+.item{
+padding: 20px;
+margin: 20px;
+}
+.item_btn{
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+
+/*  all page*/
+*{
+  margin: 0;
+  padding: 0;
+}
+.chef_image{
+  position: absolute;
+  top: -10%;
+  left: 10%;
+}
+.card-body{
+  padding-top: 100px;
+  position: relative;
+ 
+}
+/* order now */
+.order_container {
+  position: relative;
+}
+
+.order_info {
+  position: relative;
+  margin: 30px;
+}
+
+.order_icon {
+  position: absolute;
+ 
+  left: -20px;
+  top: -2px;
+}
+
+/* menu container */
+.menu_container{
+  padding-top: 200px;
+  padding-bottom: 80px;
+}
+/* many border */
+
+.opening_border{
+
+  border: 1px solid red;
+  border-radius: 50%;
+  width: 25%;
+  padding: 5px;
+}
+/* discount */
+
+/* rounded circle */
+.rounded_circle{
+  border: 1px solid red;
+  border-radius: 50%;
+  padding:  10px 10px;
+  left: 20%;
+  background-color: red;
+}
+.location_border{
+  border: 1px solid red;
+  border-radius: 50%;
+  padding: 15px;
+  height: 90%;
+}
+.rounded_circle_white{
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px;
+}
+/* story container */
+.story_container{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* border bottom */
+.border_bottom{
+  border-bottom: 1px solid red;
+  width: 150px;
+}
+
+/* table */
+.table{
+  width: 300px;
+}
+
+/* order now */
+/* .order_container{
+  position: relative;
+}
+.order_phone{
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+.order_now{
+  position: relative;
+} */
+/* /* service section */
+.service_section{
+  padding: 30px;
+  margin-right: 0px;
+}
+
+
+
+
+
+/* our menu page */
+/* menu title */
+.menu_column{
+  position: relative;
+}
+.menu_image{
+  position: relative;
+  border-radius: 50%;
+  padding: 2px;
+  border: 2px solid white;
+ 
+}
+.menu_title{
+  border: 1px red;
+  background-color: red;
+  
+  position: absolute;
+  bottom: 12%;
+ left: 25%;
+  padding: 10px 25px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+
+/* drink1 */
+.mmk{
+  margin-left: 500px;
+}
+
+/* dotted_boder_bottom */
+.dotted_border_bottom{
+  border-bottom: 1px dotted white;
+  width: 100%;
+}
+
+/* detail menu */
+.detail_menu{
+  padding: 200px;
+}
+
+/* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+           
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+ /* dotted_bottom_right */
+ .dotted_border{
+  border-bottom: 1px dotted white;
+  width: 250px;
+ }
+
+
+
+
+
+ /* example */
+ .chef_container {
+  position: relative;
+}
+
+.chef_info {
+  position: relative;
+  margin: 30px;
+}
+
+.chef_image {
+  position: absolute;
+ 
+  left: 30%;
+  top: -25%;
+}
+
+.rounded_circle_red{
+  border: 1px solid red;
+  background-color: white;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+/* branches container */
+
+/* image border */
+.branches_border{
+  position: relative;
+}
+.branches_image{
+  position: relative;
+}
+.image_border{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+ padding:  30% 44% 30% 45.5%;
+  
+  border : 3px solid white;
+}
+
+.branches_location{
+  height: 90%;
+ padding: 20px;
+}
+
+
+/* popular menu */
+ 
+ .special_offer2{
+  border: 1px solid black;
+  border-radius: 10% 10% 0% 10% / 0% 10% 10% 10% ;
+  width: 100%;
+  padding: 5px;
+  background-color: red;
+ }
+ 
+
+ .discount{
+  position: relative;
+ }
+ .special_image{
+  position: relative;
+  height: 100%;
+ }
+ 
+ .discount_circle{
+  position: absolute;
+  right: 8%;
+  width: 65px;
+  bottom: 0px;
+ }
+ 
+ .discount_circle1{
+  position: absolute;
+  right: 30%;
+  width: 40%;
+  bottom: 0px;
+ }
+ /* .popular_section{
+  padding :10% 5%;
+ } */
+ /* custom border */
+.custom_border1{
+  border: 1px solid black;
+  border-radius: 10% 10% 10% 0% / 10% 0% 10% 10%    ;
+}
+.custom_border2{
+  border: 1px solid black;
+  border-radius: 10% 10% 0% 10% / 0% 10% 10% 10% ;
+  
+}
+
+/* contact us page */
+
+
+/* example */
+
+
+.content-container {
+ display:flex;
+ flex-flow: row wrap;
+ 
+}
+
+.css-filter--target:not(:target) ~ .menu_column,.menu_icon{
+ display:block;
+ 
+}
+.css-filter--target:target ~.menu_column{
+ display:none;
+}
+[id="tag:burger"]:target ~ [data-tag~="burger"] {
+ display: block;
+}
+
+[id="tag:chicken"]:target ~ [data-tag~="chicken"] {
+ display:block;
+}
+
+[id="tag:drink"]:target ~ [data-tag~="drink"] {
+ display:block;
+}
+
+[id="tag:cake"]:target ~ [data-tag~="cake"] {
+  display:block;
+ }
+ [id="tag:coffee"]:target ~ [data-tag~="coffee"] {
+  display:block;
+ }
+
